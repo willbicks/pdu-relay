@@ -3300,13 +3300,46 @@
 	(dimension
 		(type aligned)
 		(layer "User.1")
+		(uuid "14d1b3b2-6b1f-40d9-91d5-fa8b9404a9d0")
+		(pts
+			(xy 91 55) (xy 91 95)
+		)
+		(height 8.999999)
+		(gr_text "40.0000 mm"
+			(at 80.850001 75 90)
+			(layer "User.1")
+			(uuid "14d1b3b2-6b1f-40d9-91d5-fa8b9404a9d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
 		(uuid "6a733221-2999-4332-8aef-6ae102ac64d8")
 		(pts
 			(xy 91 59) (xy 91 83)
 		)
-		(height 7.999999)
+		(height 6)
 		(gr_text "24.0000 mm"
-			(at 81.850001 71 90)
+			(at 83.85 71 90)
 			(layer "User.1")
 			(uuid "6a733221-2999-4332-8aef-6ae102ac64d8")
 			(effects
@@ -3337,11 +3370,44 @@
 		(pts
 			(xy 138 59) (xy 91 59)
 		)
-		(height 7.499999)
+		(height 6)
 		(gr_text "47.0000 mm"
-			(at 114.5 50.350001 0)
+			(at 114.5 51.85 0)
 			(layer "User.1")
 			(uuid "73852a77-e6b8-465b-b7b2-483a5099f265")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "cce25aeb-717b-4475-b69e-78957c82410f")
+		(pts
+			(xy 87 91) (xy 142 91)
+		)
+		(height 6.999999)
+		(gr_text "55.0000 mm"
+			(at 114.5 96.849999 0)
+			(layer "User.1")
+			(uuid "cce25aeb-717b-4475-b69e-78957c82410f")
 			(effects
 				(font
 					(size 1 1)
@@ -3370,9 +3436,9 @@
 		(pts
 			(xy 138 59) (xy 138 91)
 		)
-		(height -10)
+		(height -7)
 		(gr_text "32.0000 mm"
-			(at 146.85 75 90)
+			(at 143.85 75 90)
 			(layer "User.1")
 			(uuid "d3e528c4-144a-4a64-8dca-71ed27101602")
 			(effects
