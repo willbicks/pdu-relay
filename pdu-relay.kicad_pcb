@@ -163,7 +163,7 @@
 		(path "/b2a36e21-e82c-4548-a7f2-a81ca8e824f6")
 		(sheetname "Root")
 		(sheetfile "pdu-relay.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -274,7 +274,7 @@
 		(path "/ccce9802-3eda-434b-ab5a-7184793e8545")
 		(sheetname "Root")
 		(sheetfile "pdu-relay.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -1346,7 +1346,7 @@
 		(path "/a1d37586-9a2f-4fcd-879f-a5f57c06f07b")
 		(sheetname "Root")
 		(sheetfile "pdu-relay.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -1457,7 +1457,7 @@
 		(path "/1c430284-331a-4f7a-b2ca-1ca30e748c1f")
 		(sheetname "Root")
 		(sheetfile "pdu-relay.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 3.2 0)
@@ -3043,7 +3043,7 @@
 				(justify mirror)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -6.43464 0.972874) (xy -6.409332 0.240934) (xy -6.384148 -0.433815) (xy -6.35989 -1.033625)
