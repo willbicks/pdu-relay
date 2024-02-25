@@ -21,7 +21,7 @@ The logic input is a 2.54mm pitch 2-pin screw terminal. Pin 1 is an AC isolated 
 
 ### Mechanical Specifications
 
-The assembled module is 55 mm x 45 mm x ~20mm. It has 4 holes for M3 screws as shown below.
+The assembled module is 55 mm x 40 mm x ~20mm. It has 4 holes for M3 screws that are 47 mm x 32 mm between centers as shown below.
 
 ![Mechanical drawing of PCB](./images/mechanical.png)
 
