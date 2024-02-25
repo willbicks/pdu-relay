@@ -108,4 +108,15 @@
 		(roundrect_rratio 0.25)
 		(uuid "bf902a5d-de94-4a5b-879e-89797d64d85a")
 	)
+	(model "${KIPRJMOD}/Connector_Spade.pretty/Keystone_4966.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

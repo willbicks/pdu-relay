@@ -82,7 +82,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "out/PDU_Relay_v0-1_Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -162,7 +162,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/b2a36e21-e82c-4548-a7f2-a81ca8e824f6")
 		(sheetname "Root")
-		(sheetfile "pdu-switch.kicad_sch")
+		(sheetfile "pdu-relay.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -273,7 +273,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ccce9802-3eda-434b-ab5a-7184793e8545")
 		(sheetname "Root")
-		(sheetfile "pdu-switch.kicad_sch")
+		(sheetfile "pdu-relay.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -323,7 +323,7 @@
 		(descr "Terminal Block TE 282834-2, 2 pins, pitch 2.54mm, size 5.54x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity")
 		(tags "THT Terminal Block TE 282834-2 pitch 2.54mm size 5.54x6.5mm^2 drill 1.1mm pad 2.1mm")
 		(property "Reference" "J4"
-			(at -2.96 3 360)
+			(at -2.96 3 0)
 			(layer "F.SilkS")
 			(uuid "0cc83e0b-1b06-4aa9-99ab-bb3b568707a5")
 			(effects
@@ -334,7 +334,7 @@
 			)
 		)
 		(property "Value" "EXT_ON"
-			(at 1.27 4.37 270)
+			(at 1.27 4.37 -90)
 			(layer "F.Fab")
 			(uuid "ac8226ee-3337-4369-96b9-b245f0d29594")
 			(effects
@@ -383,7 +383,7 @@
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/7a5bc138-6129-4259-8f9b-b244e9fcc26a")
 		(sheetname "Root")
-		(sheetfile "pdu-switch.kicad_sch")
+		(sheetfile "pdu-relay.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.16 -3.37)
@@ -638,7 +638,7 @@
 			(uuid "d8ffd4bf-acc4-47ee-86c0-8c9d611a5625")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 2 270)
+			(at 1.27 2 -90)
 			(layer "F.Fab")
 			(uuid "c30c2d96-c08e-4cb8-bc70-1fa4dbafe7d6")
 			(effects
@@ -761,7 +761,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0440e554-cda8-4f40-9b21-3dde3b3cf337")
 		(sheetname "Root")
-		(sheetfile "pdu-switch.kicad_sch")
+		(sheetfile "pdu-relay.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -971,7 +971,7 @@
 		(property ki_fp_filters "Relay?SPST*")
 		(path "/bffae1e4-ed46-4cd1-aec3-64e1114cd023")
 		(sheetname "Root")
-		(sheetfile "pdu-switch.kicad_sch")
+		(sheetfile "pdu-relay.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.6 26.6)
@@ -1345,7 +1345,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/a1d37586-9a2f-4fcd-879f-a5f57c06f07b")
 		(sheetname "Root")
-		(sheetfile "pdu-switch.kicad_sch")
+		(sheetfile "pdu-relay.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -1456,7 +1456,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/1c430284-331a-4f7a-b2ca-1ca30e748c1f")
 		(sheetname "Root")
-		(sheetfile "pdu-switch.kicad_sch")
+		(sheetfile "pdu-relay.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -1565,7 +1565,7 @@
 		)
 		(path "/72078408-89b0-4f75-a826-c28be2dfa9f8")
 		(sheetname "Root")
-		(sheetfile "pdu-switch.kicad_sch")
+		(sheetfile "pdu-relay.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.73 0.5)
@@ -1855,7 +1855,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/26745396-2295-45a3-a128-baa5d740afa1")
 		(sheetname "Root")
-		(sheetfile "pdu-switch.kicad_sch")
+		(sheetfile "pdu-relay.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.21 -1)
@@ -2083,13 +2083,13 @@
 	(footprint "Connector_Spade:Keystone_4966"
 		(layer "F.Cu")
 		(uuid "af440c7a-6e66-4d49-8111-ccc7048e8e0d")
-		(at 92.54 73)
+		(at 92.54 73 180)
 		(property "Reference" "J1"
-			(at 0 -2 0)
+			(at 0 -2 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "916641f9-9608-4052-a0d0-3035c32c0eed")
+			(uuid "95a92154-5eea-4064-85ea-0e7142dd01ef")
 			(effects
 				(font
 					(size 1 1)
@@ -2098,10 +2098,10 @@
 			)
 		)
 		(property "Value" "L_IN"
-			(at -0.04 2 0)
+			(at -0.04 -2 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "f678ba9e-92a5-49c1-a82b-6fae6b42c4ac")
+			(uuid "0f1d2cbf-610a-46f0-b21b-1a20d38e7c9b")
 			(effects
 				(font
 					(size 1 1)
@@ -2110,11 +2110,11 @@
 			)
 		)
 		(property "Footprint" "Connector_Spade:Keystone_4966"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "deb2652f-709b-4960-b883-16ed0b665446")
+			(uuid "05285bd5-ccbf-4129-b222-67f8b2a1e82a")
 			(effects
 				(font
 					(size 1 1)
@@ -2123,11 +2123,11 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/4966-743260.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab51d5dc-f175-47a5-8dff-3df7a208b1f7")
+			(uuid "d991ec82-c7f2-4242-9439-479ba6e2b9ea")
 			(effects
 				(font
 					(size 1 1)
@@ -2136,11 +2136,11 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b8b9122-09de-4236-aee3-23b7885b94f7")
+			(uuid "deb95ff6-6839-4634-a726-ef11f2ea0c24")
 			(effects
 				(font
 					(size 1 1)
@@ -2148,10 +2148,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/17250a86-ac35-4820-b995-4df8ef3cb46f")
-		(sheetname "Root")
-		(sheetfile "pdu-switch.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -4.445 -1.27)
@@ -2162,13 +2159,13 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "99e2a519-d90e-454e-8e02-3215e4e697b7")
+			(uuid "7f794d09-a92f-43fa-8df6-27bd7a401ff1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.5 0)
+			(at 0 3.5 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "a17b15e8-f1a8-463f-a373-c5bccdca998d")
+			(uuid "10240be3-2f83-4203-9761-6aef0ea02e35")
 			(effects
 				(font
 					(size 1 1)
@@ -2177,7 +2174,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -2.54 0)
+			(at -2.54 0 180)
 			(size 3 2.2)
 			(drill 1.39)
 			(layers "*.Cu" "*.Mask")
@@ -2186,10 +2183,10 @@
 			(net 3 "/L_IN")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "9e15b435-8abf-4262-a37b-aac87c7e2dc2")
+			(uuid "81a8cfc9-795c-4ef5-86d4-43f0bc6f1058")
 		)
 		(pad "1" thru_hole roundrect
-			(at 2.54 0)
+			(at 2.54 0 180)
 			(size 3 2.2)
 			(drill 1.39)
 			(layers "*.Cu" "*.Mask")
@@ -2198,7 +2195,18 @@
 			(net 3 "/L_IN")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "2772f206-e55b-42fa-8138-efb68cfdf55b")
+			(uuid "e3252538-7b11-45e6-96fa-c7ea1fce7276")
+		)
+		(model "${KIPRJMOD}/Connector_Spade.pretty/Keystone_4966.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Converter_ACDC:Converter_ACDC_MeanWell_IRM-02-xx_THT"
@@ -2268,7 +2276,7 @@
 		(property ki_fp_filters "Converter*ACDC*MeanWell*IRM*02*THT*")
 		(path "/eed6ba31-7813-4305-bac6-1f1957982f67")
 		(sheetname "Root")
-		(sheetfile "pdu-switch.kicad_sch")
+		(sheetfile "pdu-relay.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.97 -3.62)
@@ -2500,13 +2508,13 @@
 	(footprint "Connector_Spade:Keystone_4966"
 		(layer "F.Cu")
 		(uuid "ccfa1d34-517e-40aa-821e-70343b645cc5")
-		(at 92.54 67)
+		(at 92.54 67 180)
 		(property "Reference" "J2"
-			(at 0 -2 0)
+			(at 0 -2 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "53e92dcb-7eba-4d66-8f58-709550bb5450")
+			(uuid "186386eb-b245-4fd3-bac3-2f6b672b7fc0")
 			(effects
 				(font
 					(size 1 1)
@@ -2515,10 +2523,10 @@
 			)
 		)
 		(property "Value" "N"
-			(at -0.04 -2 0)
+			(at -0.039999 2.000001 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "1a17d719-13ac-4a20-a554-e21bfa3643fc")
+			(uuid "ab45f95b-0fc3-4974-b68d-b4d17752895e")
 			(effects
 				(font
 					(size 1 1)
@@ -2527,11 +2535,11 @@
 			)
 		)
 		(property "Footprint" "Connector_Spade:Keystone_4966"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3917d8cd-0a35-4fa3-87e8-ab50bce6ccc8")
+			(uuid "3a66fbf2-2ed5-4d4c-af36-60d509c97be8")
 			(effects
 				(font
 					(size 1 1)
@@ -2540,11 +2548,11 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/4966-743260.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e666840-82dc-4310-b5db-540eb3891226")
+			(uuid "d8ce1641-d98b-486b-8d38-d265bc086ff0")
 			(effects
 				(font
 					(size 1 1)
@@ -2553,11 +2561,11 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7fd8d2ff-72b6-48ba-b2ec-0b85086d5f09")
+			(uuid "7f144235-913e-4be4-b58a-211ba4abc300")
 			(effects
 				(font
 					(size 1 1)
@@ -2565,10 +2573,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a63963e4-d9d0-4dee-8fac-c274e53e99e4")
-		(sheetname "Root")
-		(sheetfile "pdu-switch.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -4.445 -1.27)
@@ -2579,13 +2584,13 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "49c6a751-de25-4d54-9634-f5576774a22d")
+			(uuid "b4de24ac-95a5-4a9b-9603-072b0abaed18")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.5 0)
+			(at 0 3.5 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "d9a5a74d-12b0-4e66-897f-09db69d82d73")
+			(uuid "601cf368-234c-4005-a263-bb68cf1fa9f8")
 			(effects
 				(font
 					(size 1 1)
@@ -2594,7 +2599,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -2.54 0)
+			(at -2.54 0 180)
 			(size 3 2.2)
 			(drill 1.39)
 			(layers "*.Cu" "*.Mask")
@@ -2603,10 +2608,10 @@
 			(net 4 "/N")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "31ba6447-5c3e-4906-a1c3-53acaa862586")
+			(uuid "51e83d97-f75f-4356-9325-9768334e9276")
 		)
 		(pad "1" thru_hole roundrect
-			(at 2.54 0)
+			(at 2.54 0 180)
 			(size 3 2.2)
 			(drill 1.39)
 			(layers "*.Cu" "*.Mask")
@@ -2615,19 +2620,30 @@
 			(net 4 "/N")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "bb7d5f1a-9652-420e-a474-8daabde259a1")
+			(uuid "8fbf88de-e89b-42a7-8fe5-722a872af8ab")
+		)
+		(model "${KIPRJMOD}/Connector_Spade.pretty/Keystone_4966.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Connector_Spade:Keystone_4966"
 		(layer "F.Cu")
 		(uuid "d02973d4-ff27-422f-afc5-904665de445f")
-		(at 92.54 83)
+		(at 92.54 83 180)
 		(property "Reference" "J3"
-			(at 0 -2 0)
+			(at 0 -2 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5f8cb83f-aba0-4c22-95c4-8eff43180bfe")
+			(uuid "a8eb7ddb-6d5b-407c-b62f-1b36215a0b11")
 			(effects
 				(font
 					(size 1 1)
@@ -2636,10 +2652,10 @@
 			)
 		)
 		(property "Value" "L_OUT"
-			(at -0.04 2 0)
+			(at -0.04 -2 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "582a7fce-80c6-4b65-902e-65a288106607")
+			(uuid "15490508-aa00-4e03-a17f-fd92d71aab3b")
 			(effects
 				(font
 					(size 1 1)
@@ -2648,11 +2664,11 @@
 			)
 		)
 		(property "Footprint" "Connector_Spade:Keystone_4966"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d5d1c16-af84-4666-a06f-7c3dfe27108a")
+			(uuid "e51878b8-8356-4983-ba87-b64b400b5310")
 			(effects
 				(font
 					(size 1 1)
@@ -2661,11 +2677,11 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/4966-743260.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85f9c7cd-a701-49a1-9890-6e345c8aa21b")
+			(uuid "109096d0-6437-49d7-b2b0-ad940dc0b940")
 			(effects
 				(font
 					(size 1 1)
@@ -2674,11 +2690,11 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6500991-dee0-40c0-b26e-c308af8f744b")
+			(uuid "b88ab0cf-212e-4a1b-a803-b972f17e9e26")
 			(effects
 				(font
 					(size 1 1)
@@ -2686,10 +2702,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/92b40751-fc24-4ffe-91c5-5909c712e17d")
-		(sheetname "Root")
-		(sheetfile "pdu-switch.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -4.445 -1.27)
@@ -2700,13 +2713,13 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "00dbf879-93fc-40be-b80f-b8c0dc63db8f")
+			(uuid "fd6cf889-15a4-4a03-ba8e-d32404c5b923")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.5 0)
+			(at 0 3.5 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "1cb012a7-50c0-4aa9-a661-4b9b90d245fb")
+			(uuid "a052d87f-2a4d-4072-91c1-184e5a21f14e")
 			(effects
 				(font
 					(size 1 1)
@@ -2715,7 +2728,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -2.54 0)
+			(at -2.54 0 180)
 			(size 3 2.2)
 			(drill 1.39)
 			(layers "*.Cu" "*.Mask")
@@ -2724,10 +2737,10 @@
 			(net 5 "/L_OUT")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "f2046983-e881-4db6-ac4d-2ec5addf2484")
+			(uuid "2f1f849c-17fa-4dcc-b957-f2cdfcdf4723")
 		)
 		(pad "1" thru_hole roundrect
-			(at 2.54 0)
+			(at 2.54 0 180)
 			(size 3 2.2)
 			(drill 1.39)
 			(layers "*.Cu" "*.Mask")
@@ -2736,7 +2749,18 @@
 			(net 5 "/L_OUT")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "22d514fb-bf4e-429d-bc22-67b06fb3dc60")
+			(uuid "decc5d75-aff7-4d3f-a805-7b9720386c81")
+		)
+		(model "${KIPRJMOD}/Connector_Spade.pretty/Keystone_4966.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
@@ -2807,7 +2831,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/174742cb-2740-49f6-bf8b-9505c799e6a0")
 		(sheetname "Root")
-		(sheetfile "pdu-switch.kicad_sch")
+		(sheetfile "pdu-relay.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -3826,11 +3850,10 @@
 				(xy 106.542388 91.085649) (xy 106.451851 90.995112) (xy 106.34539 90.923978) (xy 106.234988 90.878247)
 				(xy 106.795103 90.318132) (xy 106.795102 90.318131) (xy 106.601807 90.213526) (xy 106.601796 90.213521)
 				(xy 106.38236 90.138188) (xy 106.153507 90.1) (xy 105.921493 90.1) (xy 105.692639 90.138188) (xy 105.473206 90.21352)
-				(xy 105.473197 90.213523) (xy 105.269148 90.323949) (xy 105.269145 90.323952) (xy 105.202595 90.375749)
-				(xy 105.137601 90.401391) (xy 105.069061 90.387824) (xy 105.018737 90.339355) (xy 105.002606 90.271373)
-				(xy 105.002629 90.270937) (xy 105.0055 90.221661) (xy 105.0055 85.278338) (xy 105.002974 85.228698)
-				(xy 105.019226 85.160749) (xy 105.069637 85.112369) (xy 105.138201 85.098924) (xy 105.202976 85.124546)
-				(xy 105.26915 85.17605) (xy 105.473197 85.286476) (xy 105.473206 85.286479) (xy 105.692639 85.361811)
+				(xy 105.473197 90.213523) (xy 105.26915 90.323949) (xy 105.200162 90.377644) (xy 105.135167 90.403286)
+				(xy 105.066628 90.389719) (xy 105.016303 90.34125) (xy 105 90.27979) (xy 105 85.220209) (xy 105.019685 85.15317)
+				(xy 105.072489 85.107415) (xy 105.141647 85.097471) (xy 105.200162 85.122356) (xy 105.269144 85.176047)
+				(xy 105.269148 85.17605) (xy 105.473197 85.286476) (xy 105.473206 85.286479) (xy 105.692639 85.361811)
 				(xy 105.921493 85.4) (xy 106.153507 85.4) (xy 106.38236 85.361811) (xy 106.601793 85.286479) (xy 106.601801 85.286476)
 				(xy 106.795102 85.181866) (xy 106.234988 84.621752) (xy 106.34539 84.576022) (xy 106.451851 84.504888)
 				(xy 106.542388 84.414351) (xy 106.613522 84.30789) (xy 106.659252 84.197488) (xy 107.216628 84.754865)
